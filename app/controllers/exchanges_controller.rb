@@ -15,7 +15,7 @@ class ExchangesController < ApplicationController
     # @exchange.author = current_user
 
     if @exchange.save
-      redirect_to category_exchanges_path(@category), notice: 'Exchange was successfully created.'
+      redirect_to category_exchanges_path(id: @category.id), notice: 'Exchange was successfully created.'
     else
       render :new
     end
