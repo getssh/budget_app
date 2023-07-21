@@ -1,14 +1,14 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Exchanges</h1>
+<h1><%= @category.name %> Exchanges</h1>
 
-<div id="exchanges">
-  <% @exchanges.each do |exchange| %>
-    <%= render exchange %>
-    <p>
-      <%= link_to "Show this exchange", exchange %>
-    </p>
-  <% end %>
-</div>
+<p>Total Amount: <%= @category.exchanges.sum(:amount) %></p>
 
-<%= link_to "New exchange", new_exchange_path %>
+<% @category.exchanges.order(created_at: :desc).each do |exchange| %>
+  <div>
+    <h3><%= exchange.name %></h3>
+    <p>Amount: <%= exchange.amount %></p>
+  </div>
+<% end %>
+
+<%= link_to "New exchange", new_category_exchange_path(@category) %>
