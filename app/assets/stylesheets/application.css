@@ -14,7 +14,11 @@
  *= require_self
  */
 
- .login-link.btn-primary {
+.bg-color {
+  background-color: #e6e7ea;
+}
+
+.login-link.btn-primary {
   background-color: #3778c2;
   border-color: #3778c2;
 }
@@ -32,6 +36,10 @@
 .sign-up-link.btn-secondary:hover {
   background-color: #434b54;
   border-color: #434b54;
+}
+
+.green {
+  background-color: #5fbf23;
 }
 
 .form-control {
