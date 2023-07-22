@@ -8,6 +8,7 @@
     <p>Icon: <%= category.icon %></p>
     <img src="<%= category.icon%> alt="image"/>
     <p>Total Amount: <%= category.exchanges.sum(:amount) %></p>
+    <%= category.created_at.strftime("%d %B %Y") %>
     <%= link_to 'View Exchanges', category_exchanges_path(category) %>
   </div>
 <% end %>
