@@ -1,4 +1,12 @@
-<div class="login-and-sign-up">
-  <%= link_to 'LOG IN', new_user_session_path, class: "login-link" %>
-  <%= link_to 'SIGN UP', new_user_registration_path, class: "sign-up-link" %>
+<div class="row justify-content-center align-items-center" style="height: 100vh;">
+<div class="col-md-6 text-center">
+  <div class="splash">
+    <h2>Welcome to</h2>
+    <h1>Expense Manager</h1>
+    <div class="d-flex justify-content-center">
+      <%= link_to 'LOG IN', new_user_session_path, class: "login-link btn btn-primary mr-3" %>
+      <%= link_to 'SIGN UP', new_user_registration_path, class: "sign-up-link btn btn-secondary ml-3" %>
+    </div>
+  </div>
+</div>
 </div>
