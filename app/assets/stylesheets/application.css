@@ -15,9 +15,18 @@
  */
  @import url('https://fonts.cdnfonts.com/css/proxima-nova-condensed');
 
- body {
+.topg {
+  background-color: #3778c2;
+}
+
+.bottomg {
+  background-color: #5fbf23;
+}
+
+body {
   font-family: 'Proxima Nova Condensed', sans-serif;
- }
+}
+
 .bg-color {
   background-color: #e6e7ea;
 }
