@@ -1,4 +1,3 @@
-
 require 'rails_helper'
 
 RSpec.describe 'Exchanges integration tests', type: :feature do

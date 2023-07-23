@@ -2,8 +2,7 @@ class ExchangesController < ApplicationController
   before_action :authenticate_user!
   before_action :set_category
 
-  def index
-  end
+  def index; end
 
   def new
     @exchange = @category.exchanges.new
