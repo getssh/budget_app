@@ -1,23 +1,18 @@
-<a name="readme-top"></a>
-
-<div align="center">
-
-  <h1><b>Rails Recipe App</b></h1>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Rails Budget App ](#-rails-budget-app-)
+- [📖 budget app ](#-budget-app-)
+    - [Intro Video](#intro-video)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [Watch the walkthrough here:](#watch-the-walkthrough-here)
     - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
-    - [Prerequisites](#prerequisites)
     - [Setup](#setup)
+    - [Prerequisites](#prerequisites)
     - [Install](#install)
     - [Usage](#usage)
     - [Run tests](#run-tests)
@@ -30,46 +25,59 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Rails Budget App <a name="about-project"></a>
+# 📖 budget app <a name="about-project"></a>
 
-**Budget app** An appliation help to track users expenses. The app has authunication for security reasons.
+**budget app** A mobile application to manage users expenses. Users can add a catagory and in the catagory they can add transactions. By doing that they can trance thier money. The application also include authenicaion for security.
 
-<a href="https://www.loom.com/share/a1e6cae6108346f9a3e74d6c53418c0f?sid=3c9ddcfe-e7ab-4f19-9488-f871d2b4db1a">Presentation vedio about the project</a>
+### Intro Video
+https://www.loom.com/share/a1e6cae6108346f9a3e74d6c53418c0f?sid=3c9ddcfe-e7ab-4f19-9488-f871d2b4db1a
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-
 <details>
   <summary>Client</summary>
   <ul>
-    <li>Ruby on Rails</li>
+   <li>HTML</li>
+   <li>CSS</li>
+   <li>Javascript</li>
+   <li>React Js</li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li>localhost</li>
+    <li>Ruby on Rails</li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li>PostgreSQL</li>
+    <li>Postgresql</li>
   </ul>
 </details>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live]([https://budget-appp-rp0t.onrender.com/](https://budget-appp-rp0t.onrender.com/))
+  
+## Watch the walkthrough here:
+
+- [Loom Walkthrough](https://www.loom.com/share/9c9ae07f3fd84d9dadefb83b2a78248f?sid=52eb1d5e-9b6c-43fc-a0fa-7c1f03131f57)
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[Keep track of all your recipes, ingredients, and inventory]**
-- **[Create recipes, and generate shopping lists]**
+- **Simple UI**
+- **Beautiful Design**
 
-<p align="right"><a href="#readme-top">Back to top</a></p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -77,46 +85,49 @@
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
-
-- You'll need any code editor 
-
 ### Setup
 
-Clone this repository to your desired folder:
+Clone the repo into your local machine:
 
-```sh
-  git clone https://github.com/getssh/budget_app
-  cd Rails-Recipe-App
+```bash
+git clone https://github.com/getssh/budget_app
 ```
+
+### Prerequisites
+
+In order to run this project you need to:
+
+- Install [Git](https://git-scm.com/)
+- Install [Ruby](https://rubyinstaller.org/)
+- Install [Rails](https://rubyonrails.org/)
 
 ### Install
 
-Install this project with:
+To install the dependencies run the following command
 
-```sh
-  bundle install
-  rails db:create
-  rails db:migrate
+```bash
+bundle install
 ```
 
 ### Usage
 
-To run the project, execute the following command:
+To start the project execute this command
 
-```sh
-  rails server
+```bash
+rails s
 ```
 
 ### Run tests
 
-To run tests, run the following command:
+To run the tests execute this command
 
-```sh
-  rails db:migrate RAILS_ENV=test
-  rspec
+```bash
+rspec spec/
 ```
 
+<p align="right"><a href="#readme-top">👆</a></p>
+
+<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -125,16 +136,17 @@ To run tests, run the following command:
 - GitHub: [@getssh](https://github.com/getssh)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/getayawkal-tamrat/)
 
-<p align="right"><a href="#readme-top">Back to top</a></p>
+<p align="right"><a href="#readme-top">👆</a></p>
+
+<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Improve UI design]**
-- [ ] **[Improve the desktop version]**
+- **Animations** :eyes:
 
-<p align="right"><a href="#readme-top">Back to top</a></p>
+<p align="right"><a href="#readme-top">👆</a></p>
 
-<!-- CONTRIBUTING -->
+<!-- Contributing -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -142,28 +154,30 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-<p align="right"><a href="#readme-top">Back to top</a></p>
+<p align="right"><a href="#readme-top">👆</a></p>
 
-<!-- SUPPORT -->
+<!-- Show your support -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project you can give it a star!
+If you like this project leave a start for it.
 
-<p align="right"><a href="#readme-top">Back to top</a></p>
+<p align="right"><a href="#readme-top">👆</a></p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thanks Microverse for this learning opportunity.
+Original design idea by [Gregoire Vella on Behance](https://www.behance.net/gregoirevella).
 
-<p align="right"><a href="#readme-top">Back to top</a></p>
+I would like to thank Microverse for helping me in my journey to become a Fullstack developer 🌹
 
-<!-- FAQ (optional) -->
+<p align="right"><a href="#readme-top">👆</a></p>
+
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
-<p align="right"><a href="#readme-top">Back to top</a></p>
+<p align="right"><a href="#readme-top">👆</a></p>
