@@ -21,7 +21,7 @@ RSpec.describe 'Exchanges integration tests', type: :feature do
   end
 
   it 'should display a link to go back to categories' do
-    expect(page).to have_link('Back', href: categories_path)
+    expect(page).to have_link('<', href: categories_path)
   end
 
   it 'should display a link to add a new transaction' do
