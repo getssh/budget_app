@@ -16,7 +16,8 @@ RSpec.describe 'Exchanges integration tests', type: :feature do
 
   it 'should display the category name and total amount' do
     expect(page).to have_content(@category.name)
-    expect(page).to have_content("Total Amount: #{'%.1f' % @category.exchanges.sum(:amount)}")
+    total_amount = format('Total Amount: %.1f', @category.exchanges.sum(:amount))
+    expect(page).to have_content(total_amount)
   end
 
   it 'should display a link to go back to categories' do
