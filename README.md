@@ -34,6 +34,8 @@
 
 **Budget app** An appliation help to track users expenses. The app has authunication for security reasons.
 
+<a href="https://www.loom.com/share/a1e6cae6108346f9a3e74d6c53418c0f?sid=3c9ddcfe-e7ab-4f19-9488-f871d2b4db1a">Presentation vedio about the project</a>
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
