@@ -1,4 +1,4 @@
-# spec/integration/categories_spec.rb
+
 
 require 'rails_helper'
 
