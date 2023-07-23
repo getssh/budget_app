@@ -64,11 +64,11 @@ https://www.loom.com/share/a1e6cae6108346f9a3e74d6c53418c0f?sid=3c9ddcfe-e7ab-4f
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live]([https://budget-appp-rp0t.onrender.com/](https://budget-appp-rp0t.onrender.com/))
+- [Live](https://budget-appp-rp0t.onrender.com/)
   
 ## Watch the walkthrough here:
 
-- [Loom Walkthrough](https://www.loom.com/share/9c9ae07f3fd84d9dadefb83b2a78248f?sid=52eb1d5e-9b6c-43fc-a0fa-7c1f03131f57)
+- [Loom Walkthrough](https://www.loom.com/share/a1e6cae6108346f9a3e74d6c53418c0f?sid=3c9ddcfe-e7ab-4f19-9488-f871d2b4db1a)
 
 <!-- Features -->
 
